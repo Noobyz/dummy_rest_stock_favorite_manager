@@ -22,7 +22,8 @@ This microservice provides a simple API for managing users' favorite stocks. It 
       - [Response](#response-2)
   - [Response Format](#response-format)
   - [Setup Instructions](#setup-instructions)
-  - [Sequence Diagram](#sequence-diagram)
+  - [Sequence Diagrams](#sequence-diagrams)
+  - [Extra Notes](#extra-notes)
 
 ## API Endpoints
 
@@ -164,4 +165,12 @@ npm start
 5. **Server Running**:
    The server will be running on `http://localhost:3000`.
 
-## Sequence Diagram
+## Sequence Diagrams
+
+![](./diagrams/AddFavorites.png)
+![](./diagrams/DeleteFavorites.png)
+![](./diagrams/ListFavorites.png)
+
+## Extra Notes
+
+More examples of how to make HTTP requests to these endpoints in node can be viewed in `test.js`.
