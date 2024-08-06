@@ -138,7 +138,7 @@ curl -X GET http://localhost:3000/favorites \
 1. **Clone the Repository**:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/drewrodrigues/dummy_rest_stock_favorite_manager
 cd <repository-directory>
 ```
 
