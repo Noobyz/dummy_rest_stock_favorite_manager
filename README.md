@@ -22,6 +22,7 @@ This microservice provides a simple API for managing users' favorite stocks. It 
       - [Response](#response-2)
   - [Response Format](#response-format)
   - [Setup Instructions](#setup-instructions)
+  - [Sequence Diagram](#sequence-diagram)
 
 ## API Endpoints
 
@@ -135,22 +136,32 @@ curl -X GET http://localhost:3000/favorites \
 
 1. **Clone the Repository**:
 
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```
 
-2. **Install Dependencies**:
+2. **Setup Node (on Mac)**:
 
-   ```bash
-   npm install
-   ```
+```bash
+brew install nvm
+nvm install 18.16.0
+nvm use 18.16.0
+```
 
-3. **Start the Server**:
+3. **Install Dependencies**:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm install
+```
 
-4. **Server Running**:
+4. **Start the Server**:
+
+```bash
+npm start
+```
+
+5. **Server Running**:
    The server will be running on `http://localhost:3000`.
+
+## Sequence Diagram
